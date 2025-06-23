@@ -1106,7 +1106,7 @@ trainerdata 21, "Abby Coyler"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype DOUBLE_BATTLE
+    battletype NO_PARTNER_DOUBLE_BATTLE
     endentry
 
     party 21
@@ -11314,7 +11314,7 @@ trainerdata 256, "Brennan Holloway"
     item ITEM_FULL_RESTORE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype DOUBLE_BATTLE
+    battletype NO_PARTNER_DOUBLE_BATTLE
     endentry
 
     party 256
