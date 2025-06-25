@@ -109,11 +109,6 @@ _0000: // Trainer 0
     trainertextentry 495, TEXT_LAST_MON_CRITICAL, "...Humph!\nYou’re doing OK for someone weak.\n"
     trainertextentry 495, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
     trainertextentry 495, TEXT_PLAYER_LOSES, "...Humph!\nThat was a waste of time.\n"
-_000A: // Trainer 19
-    trainertextentry 19, TEXT_NOTICE_IN_OVERWORLD, "Let me try something I learned today.\r"
-    trainertextentry 19, TEXT_DEFEATED_IN_BATTLE, "I didn’t study enough, I guess.\n"
-    trainertextentry 19, TEXT_DEFEATED_IN_OVERWORLD, "I have to take so many tests, I don’t\nhave much time for Pokémon.\rSo when I do get to battle, I really\nconcentrate.\n"
-    trainertextentry 19, TEXT_REMATCH_IN_OVERWORLD, "You’ve come to the right place!\rTime for me to try out everything I’ve\nlearned today!\r"
 
 _000C: // Trainer 496
     trainertextentry 496, TEXT_LAST_MON_CRITICAL, "...Humph!\nYou’re doing OK for someone weak.\n"
