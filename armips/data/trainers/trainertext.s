@@ -3119,7 +3119,7 @@ _1AD0: // Trainer 630
 /* Trainer  16 */ .halfword _0C74
 /* Trainer  17 */ .halfword _0E08
 /* Trainer  18 */ .halfword _0A64
-/* Trainer  19 */ .halfword _000A
+/* Trainer  19 */ .halfword _0000
 /* Trainer  20 */ .halfword _014C
 /* Trainer  21 */ .halfword _0158
 /* Trainer  22 */ .halfword _0268
