@@ -110,6 +110,12 @@ _0000: // Trainer 0
     trainertextentry 495, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
     trainertextentry 495, TEXT_PLAYER_LOSES, "...Humph!\nThat was a waste of time.\n"
 
+_000A: // Trainer 19
+    trainertextentry  19, TEXT_NOTICE_IN_OVERWORLD, "Are you ready to bleed for the Old Gods?\r"
+    trainertextentry  19, TEXT_LAST_MON_SENT_OUT, "I can taste your blood and foresee your end!\n"
+    trainertextentry  19, TEXT_DEFEATED_IN_BATTLE, "Mmm, that was worth rattling the stars.\n"
+    trainertextentry  19, TEXT_PLAYER_LOSES, "Looks like this Bagel is ready for sacrifice!\n"
+
 _000C: // Trainer 496
     trainertextentry 496, TEXT_LAST_MON_CRITICAL, "...Humph!\nYou’re doing OK for someone weak.\n"
     trainertextentry 496, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
@@ -3119,7 +3125,7 @@ _1AD0: // Trainer 630
 /* Trainer  16 */ .halfword _0C74
 /* Trainer  17 */ .halfword _0E08
 /* Trainer  18 */ .halfword _0A64
-/* Trainer  19 */ .halfword _0000
+/* Trainer  19 */ .halfword _000A
 /* Trainer  20 */ .halfword _014C
 /* Trainer  21 */ .halfword _0158
 /* Trainer  22 */ .halfword _0268
