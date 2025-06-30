@@ -11651,7 +11651,7 @@ trainerdata 259, "Kate DeBlasis"
         // mon 0
 		ivs 255
 		abilityslot 0
-		level 65
+		level 63
 		pokemon SPECIES_BLASTOISE
 		item ITEM_WHITE_HERB
 		move MOVE_HYDRO_PUMP
@@ -11667,7 +11667,7 @@ trainerdata 259, "Kate DeBlasis"
 		// mon 1
 		ivs 255
 		abilityslot 0
-		level 67
+		level 62
 		pokemon SPECIES_SNORLAX
 		item ITEM_LEFTOVERS
 		move MOVE_CURSE
@@ -11683,7 +11683,7 @@ trainerdata 259, "Kate DeBlasis"
 		// mon 2
 		ivs 255
 		abilityslot 0
-		level 66
+		level 63
 		pokemon SPECIES_CHARIZARD
 		item ITEM_CHOICE_SPECS
 		move MOVE_WEATHER_BALL
@@ -11699,8 +11699,8 @@ trainerdata 259, "Kate DeBlasis"
 		// mon 3
 		ivs 255
 		abilityslot 0
-		level 65
-		monwithform SPECIES_MAROWAK, 65
+		level 63
+		monwithform SPECIES_MAROWAK, 1
 		item ITEM_THICK_CLUB
 		move MOVE_POLTERGEIST
 		move MOVE_FIRE_PUNCH
@@ -11715,7 +11715,7 @@ trainerdata 259, "Kate DeBlasis"
 		// mon 4
 		ivs 255
 		abilityslot 0
-		level 70
+		level 65
 		pokemon SPECIES_DRAGONITE
 		item ITEM_HEAVY_DUTY_BOOTS
 		move MOVE_DRAGON_DANCE
@@ -11731,7 +11731,7 @@ trainerdata 259, "Kate DeBlasis"
 		// mon 5
 		ivs 255
 		abilityslot 0
-		level 68
+		level 64
 		monwithform SPECIES_RAPIDASH, 1
 		item ITEM_KEE_BERRY
 		move MOVE_CALM_MIND
