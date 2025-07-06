@@ -9,7 +9,7 @@ _000:
     PrintMessage 1230, TAG_NONE_SIDE, BATTLER_CATEGORY_ATTACKER
     Wait 
     WaitButtonABTime 30
-    SetTailwindCounter BATTLER_CATEGORY_ATTACKER
+    SetTailwindCounter 1
     End 
 
 _014:
