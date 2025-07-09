@@ -18321,7 +18321,7 @@ trainerdata 419, "Ellen"
         ivs 255
         abilityslot 0
         level 63
-        pokemon SPECIES_PALAFIN
+        pokemon SPECIES_BAXCALIBUR
         ballseal 0
     endparty
 
