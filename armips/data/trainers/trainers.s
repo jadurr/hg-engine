@@ -4329,7 +4329,7 @@ trainerdata 88, "Mickey"
 trainerdata 89, "Grace"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_MEDIUM
-    nummons 2
+    nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -5747,7 +5747,7 @@ trainerdata 125, "Edgar"
 trainerdata 126, "Andre"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -15681,7 +15681,7 @@ trainerdata 348, "Robert"
 trainerdata 349, "Joshua"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKEFAN_M
-    nummons 3
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -23970,7 +23970,7 @@ trainerdata 561, "Tanner"
 trainerdata 562, "Piper"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PICNICKER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -31146,7 +31146,7 @@ trainerdata 727, "Blue"
 trainerdata 728, "Charlotte"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_BEAUTY
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
