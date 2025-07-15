@@ -196,7 +196,7 @@ trainerdata 4, "Wade"
 		move MOVE_PROTECT
 		move MOVE_DOUBLE_EDGE
 		move MOVE_FEINT
-		ability ABILITY_SHELL_ARMOR
+		ability ABILITY_BATTLE_ARMOR
         ballseal 0
     endparty
 
@@ -823,7 +823,7 @@ trainerdata 17, "Kenji"
 		move MOVE_POISON_JAB
 		move MOVE_ACID_ARMOR
 		move MOVE_HEX
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		ballseal 0
     endparty
 
@@ -1608,7 +1608,7 @@ trainerdata 30, "Brennan Holloway"
 		move MOVE_TOXIC
 		move MOVE_BODY_PRESS
 		move MOVE_HEAVY_SLAM
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 4, 0, 0, 252
 		nature NATURE_CAREFUL
@@ -2174,7 +2174,7 @@ trainerdata 35, "Daniel Spasic"
 		move MOVE_PSYCHIC_FANGS
 		move MOVE_EARTHQUAKE
 		move MOVE_BULLET_PUNCH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 160, 0, 96, 0, 0
 		nature NATURE_ADAMANT
@@ -2190,7 +2190,7 @@ trainerdata 35, "Daniel Spasic"
 		move MOVE_DRAGON_DANCE
 		move MOVE_EXTREME_SPEED
 		move MOVE_EARTHQUAKE
-		ability ABILITY_AIR_LOCK
+		ability ABILITY_CLOUD_NINE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 4, 252, 0, 0
 		nature NATURE_ADAMANT
@@ -2257,7 +2257,7 @@ trainerdata 37, "Preston"
 		move MOVE_TACKLE
 		move MOVE_FLAME_CHARGE
 		move MOVE_AGILITY
-		ability ABILITY_LIBERO
+		ability ABILITY_PROTEAN
 		ballseal 0
     endparty
 
@@ -2380,7 +2380,7 @@ trainerdata 40, "Sonja Scott"
 		move MOVE_SUNSTEEL_STRIKE
 		move MOVE_EARTHQUAKE
 		move MOVE_PHOTON_GEYSER
-		ability ABILITY_PRISM_ARMOR
+		ability ABILITY_FILTER
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_ADAMANT
@@ -2568,7 +2568,7 @@ trainerdata 43, "Chow"
 		move MOVE_PROTECT
 		move MOVE_AQUA_JET
 		move MOVE_WATER_GUN
-		ability ABILITY_HUGE_POWER
+		ability ABILITY_PURE_POWER
         ballseal 0
     endparty
 
@@ -4106,7 +4106,7 @@ trainerdata 81, "Tori & Til"
 		move MOVE_WHIRLPOOL
 		move MOVE_CONFUSE_RAY
 		move MOVE_AQUA_RING
-		ability ABILITY_SHELL_ARMOR
+		ability ABILITY_BATTLE_ARMOR
 		ballseal 0
     endparty
 
@@ -4374,7 +4374,7 @@ trainerdata 90, "Kaylee"
 		move MOVE_ACID
 		move MOVE_WRAP
 		move MOVE_SUPERSONIC
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		ballseal 0
 
         // mon 1
@@ -4386,7 +4386,7 @@ trainerdata 90, "Kaylee"
 		move MOVE_SUPERSONIC
 		move MOVE_ACID
 		move MOVE_BUBBLE_BEAM
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		ballseal 0
     endparty
 
@@ -4794,7 +4794,7 @@ trainerdata 102, "Gaven"
 		move MOVE_EARTHQUAKE
 		move MOVE_SUNSTEEL_STRIKE
 		move MOVE_DRAGON_DANCE
-		ability ABILITY_PRISM_ARMOR
+		ability ABILITY_FILTER
 		ballseal 0
     endparty
 
@@ -5244,7 +5244,7 @@ trainerdata 113, "Jamie"
 		move MOVE_FLASH_CANNON
 		move MOVE_METAL_BURST
 		move MOVE_CRUNCH
-		ability ABILITY_FULL_METAL_BODY
+		ability ABILITY_WHITE_SMOKE
 		ballseal 0
 
         // mon 1
@@ -5324,7 +5324,7 @@ trainerdata 115, "Megan"
 		move MOVE_FLASH_CANNON
 		move MOVE_ZEN_HEADBUTT
 		move MOVE_METEOR_MASH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		ballseal 0
     endparty
 
@@ -5552,7 +5552,7 @@ trainerdata 121, "Kelly"
 		move MOVE_MEGA_DRAIN
 		move MOVE_SHADOW_BALL
 		move MOVE_STRENGTH_SAP
-		ability ABILITY_HEATPROOF
+		ability ABILITY_THICK_FAT
 		ballseal 0
 
         // mon 1
@@ -5602,7 +5602,7 @@ trainerdata 122, "Marvin"
 		move MOVE_ENDEAVOR
 		move MOVE_ROCK_BLAST
 		move MOVE_SWORDS_DANCE
-		ability ABILITY_SHELL_ARMOR
+		ability ABILITY_BATTLE_ARMOR
 		ballseal 0
     endparty
 
@@ -6012,7 +6012,7 @@ trainerdata 132, "Ron"
 		move MOVE_ENDEAVOR
 		move MOVE_ROCK_BLAST
 		move MOVE_SWORDS_DANCE
-		ability ABILITY_SHELL_ARMOR
+		ability ABILITY_BATTLE_ARMOR
 		ballseal 0
 
         // mon 1
@@ -6451,7 +6451,7 @@ trainerdata 145, "Parry"
 		move MOVE_NASTY_PLOT
 		move MOVE_TWIN_BEAM
 		move MOVE_DOUBLE_HIT
-		ability ABILITY_ARMOR_TAIL
+		ability ABILITY_DAZZLING
 		ballseal 0
     endparty
 
@@ -7183,7 +7183,7 @@ trainerdata 163, "Kuni"
 		move MOVE_DRAIN_PUNCH
 		move MOVE_ICE_PUNCH
 		move MOVE_SEISMIC_TOSS
-		ability ABILITY_SHELL_ARMOR
+		ability ABILITY_BATTLE_ARMOR
 		ballseal 0
     endparty
 
@@ -8006,7 +8006,7 @@ trainerdata 188, "Grunt"
 		move MOVE_LIQUIDATION
 		move MOVE_BELLY_DRUM
 		move MOVE_PLAY_ROUGH
-		ability ABILITY_HUGE_POWER
+		ability ABILITY_PURE_POWER
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 276, 0, 0, 0
 		nature NATURE_IMPISH
@@ -8248,7 +8248,7 @@ trainerdata 192, "Grunt"
 		move MOVE_GYRO_BALL
 		move MOVE_ZEN_HEADBUTT
 		move MOVE_ICE_PUNCH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 252, 0, 0, 0
 		nature NATURE_IMPISH
@@ -8422,7 +8422,7 @@ trainerdata 196, "Grunt"
 		move MOVE_GEAR_GRIND
 		move MOVE_WILD_CHARGE
 		move MOVE_SCREECH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -8499,7 +8499,7 @@ trainerdata 197, "Grunt"
 		move MOVE_SUCKER_PUNCH
 		move MOVE_SCORCHING_SANDS
 		move MOVE_U_TURN
-		ability ABILITY_LIBERO
+		ability ABILITY_PROTEAN
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 252, 0, 0
 		nature NATURE_JOLLY
@@ -9042,7 +9042,7 @@ trainerdata 212, "Terrell"
 		move MOVE_BOUNCE
 		move MOVE_AQUA_TAIL
 		move MOVE_AQUA_JET
-		ability ABILITY_HUGE_POWER
+		ability ABILITY_PURE_POWER
 		ballseal 0
     endparty
 
@@ -9118,7 +9118,7 @@ trainerdata 214, "Roberto"
 		move MOVE_SAND_ATTACK
 		move MOVE_AQUA_JET
 		move MOVE_METAL_CLAW
-		ability ABILITY_WIMP_OUT
+		ability ABILITY_EMERGENCY_EXIT
 		ballseal 0
 
         // mon 1
@@ -9194,7 +9194,7 @@ trainerdata 216, "Grunt"
 		move MOVE_WATER_PULSE
 		move MOVE_ICY_WIND
 		move MOVE_MUD_SHOT
-		ability ABILITY_SHELL_ARMOR
+		ability ABILITY_BATTLE_ARMOR
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 252
 		nature NATURE_TIMID
@@ -9209,7 +9209,7 @@ trainerdata 216, "Grunt"
 		move MOVE_MEGA_DRAIN
 		move MOVE_IRON_DEFENSE
 		move MOVE_WATER_PULSE
-		ability ABILITY_SHELL_ARMOR
+		ability ABILITY_BATTLE_ARMOR
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 252
 		nature NATURE_TIMID
@@ -9934,7 +9934,7 @@ trainerdata 232, "Vincent"
 		move MOVE_PHANTOM_FORCE
 		move MOVE_U_TURN
 		move MOVE_HEX
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		ballseal 0
 
         // mon 1
@@ -10400,7 +10400,7 @@ trainerdata 244, "John Dove"
 		move MOVE_PSYCHIC_FANGS
 		move MOVE_KNOCK_OFF
 		move MOVE_BULLET_PUNCH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 160, 0, 96, 0, 0
 		nature NATURE_ADAMANT
@@ -11878,7 +11878,7 @@ trainerdata 261, "Julian Durr"
 		move MOVE_SPIKES
 		move MOVE_IRON_DEFENSE
 		move MOVE_BODY_PRESS
-		ability ABILITY_IRON_BARBS
+		ability ABILITY_ROUGH_SKIN
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 252, 0, 0, 4
 		nature NATURE_IMPISH
@@ -11894,7 +11894,7 @@ trainerdata 261, "Julian Durr"
 		move MOVE_ICE_PUNCH
 		move MOVE_ROCK_SLIDE
 		move MOVE_BULLET_PUNCH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 232, 60, 0, 176, 0, 40
 		nature NATURE_JOLLY
@@ -13273,7 +13273,7 @@ trainerdata 285, "Laura Bertino"
 		move MOVE_EARTHQUAKE
 		move MOVE_IRON_HEAD
 		move MOVE_STONE_EDGE
-		ability ABILITY_TANGLING_HAIR
+		ability ABILITY_GOOEY
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_JOLLY
@@ -13383,7 +13383,7 @@ trainerdata 286, "Laura Bertino"
 		move MOVE_EARTHQUAKE
 		move MOVE_IRON_HEAD
 		move MOVE_STONE_EDGE
-		ability ABILITY_TANGLING_HAIR
+		ability ABILITY_GOOEY
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_JOLLY
@@ -13493,7 +13493,7 @@ trainerdata 287, "Laura Bertino"
 		move MOVE_EARTHQUAKE
 		move MOVE_IRON_HEAD
 		move MOVE_STONE_EDGE
-		ability ABILITY_TANGLING_HAIR
+		ability ABILITY_GOOEY
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_JOLLY
@@ -13758,7 +13758,7 @@ trainerdata 290, "Li"
 		move MOVE_THRASH
 		move MOVE_HEADBUTT
 		move MOVE_ANCIENT_POWER
-		ability ABILITY_TANGLING_HAIR
+		ability ABILITY_GOOEY
         ballseal 0
 
         // mon 1
@@ -18217,7 +18217,7 @@ trainerdata 418, "Julian Durr"
 		move MOVE_LEECH_SEED
 		move MOVE_POWER_WHIP
 		move MOVE_KNOCK_OFF
-		ability ABILITY_IRON_BARBS
+		ability ABILITY_ROUGH_SKIN
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 252, 0, 0, 4
 		nature NATURE_IMPISH
@@ -18233,7 +18233,7 @@ trainerdata 418, "Julian Durr"
 		move MOVE_ICE_PUNCH
 		move MOVE_ROCK_SLIDE
 		move MOVE_BULLET_PUNCH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 232, 60, 0, 176, 0, 40
 		nature NATURE_JOLLY
@@ -18471,7 +18471,7 @@ trainerdata 424, "Colin"
 		move MOVE_PSYCHIC
 		move MOVE_SHADOW_BALL
 		move MOVE_MOONLIGHT
-		ability ABILITY_SHADOW_SHIELD
+		ability ABILITY_MULTISCALE
 		ballseal 0
     endparty
 
@@ -20015,7 +20015,7 @@ trainerdata 470, "Gregg"
 		move MOVE_GRASS_KNOT
 		move MOVE_ICE_PUNCH
 		move MOVE_DISCHARGE
-		ability ABILITY_MINUS
+		ability ABILITY_PLUS
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 0, 152, 0
 		nature NATURE_TIMID
@@ -23660,7 +23660,7 @@ trainerdata 551, "Dwight"
 		move MOVE_FLASH_CANNON
 		move MOVE_AURA_SPHERE
 		move MOVE_ROCK_POLISH
-		ability ABILITY_CLEAR_BODY
+		ability ABILITY_WHITE_SMOKE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 252, 252, 0
 		nature NATURE_TIMID
@@ -25135,7 +25135,7 @@ trainerdata 598, "Day & Dani"
 		move MOVE_AGILITY
 		move MOVE_THRASH
 		move MOVE_CONFUSE_RAY
-		ability ABILITY_GRIM_NEIGH
+		ability ABILITY_SOUL_HEART
 		ballseal 0
 
         // mon 1
@@ -25147,7 +25147,7 @@ trainerdata 598, "Day & Dani"
 		move MOVE_AVALANCHE
 		move MOVE_IRON_DEFENSE
 		move MOVE_THRASH
-		ability ABILITY_CHILLING_NEIGH
+		ability ABILITY_MOXIE
 		ballseal 0
     endparty
 
@@ -25211,7 +25211,7 @@ trainerdata 600, "Selina"
 		move MOVE_IRON_DEFENSE
 		move MOVE_GYRO_BALL
 		move MOVE_EXPLOSION
-		ability ABILITY_IRON_BARBS
+		ability ABILITY_ROUGH_SKIN
 		ballseal 0
 
         // mon 1
@@ -28255,7 +28255,7 @@ trainerdata 682, "Bonita"
 		move MOVE_HURRICANE
 		move MOVE_HYDRO_PUMP
 		move MOVE_U_TURN
-		ability ABILITY_AIR_LOCK
+		ability ABILITY_CLOUD_NINE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 0, 0, 0, 0
 		nature NATURE_TIMID
@@ -28281,13 +28281,13 @@ trainerdata 682, "Bonita"
 		ivs 255
 		abilityslot 0
 		level 73
-		pokemon SPECIES_KYUREM
+		monwithform SPECIES_KYUREM, 2
 		item ITEM_LIFE_ORB
 		move MOVE_BOLT_STRIKE
 		move MOVE_ICICLE_CRASH
 		move MOVE_EARTHQUAKE
 		move MOVE_IRON_HEAD
-		ability ABILITY_TERAVOLT
+		ability ABILITY_MOLD_BREAKER
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 0
 		nature NATURE_ADAMANT
