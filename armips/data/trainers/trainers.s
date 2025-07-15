@@ -2936,7 +2936,7 @@ trainerdata 52, "Edmond"
 		move MOVE_ROCK_THROW
 		move MOVE_BITE
 		move MOVE_KNOCK_OFF
-		ability ABILITY_DEFEATIST
+		ability ABILITY_VITAL_SPIRIT
         ballseal 0
 
         // mon 1
@@ -3449,7 +3449,7 @@ trainerdata 64, "Ian"
 		move MOVE_FLAME_CHARGE
 		move MOVE_BITE
 		move MOVE_ROAR
-		ability ABILITY_BALL_FETCH
+		ability ABILITY_RATTLED
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 252, 0, 0
 		nature NATURE_TIMID
@@ -3628,7 +3628,7 @@ trainerdata 68, "Al"
 		move MOVE_ELECTRO_BALL
 		move MOVE_SUCKER_PUNCH
 		move MOVE_WATER_PULSE
-		ability ABILITY_ILLUMINATE
+		ability ABILITY_VOLT_ABSORB
 		ballseal 0
     endparty
 
@@ -4056,7 +4056,7 @@ trainerdata 80, "Dirk"
 		move MOVE_FIRE_FANG
 		move MOVE_ICE_FANG
 		move MOVE_TACKLE
-		ability ABILITY_RUN_AWAY
+		ability ABILITY_INTIMIDATE
 		ballseal 0
 
         // mon 1
@@ -9875,7 +9875,7 @@ trainerdata 230, "Franklin"
 		move MOVE_PSYSHOCK
 		move MOVE_FUTURE_SIGHT
 		move MOVE_PSYCHIC
-		ability ABILITY_FOREWARN
+		ability ABILITY_INNER_FOCUS
 		ballseal 0
 
         // mon 1
@@ -10032,7 +10032,7 @@ trainerdata 235, "Noland"
 		move MOVE_PSYCHIC
 		move MOVE_MOONLIGHT
 		move MOVE_MOONBLAST
-		ability ABILITY_FOREWARN
+		ability ABILITY_SYNCHRONIZE
 		ballseal 0
 
         // mon 1
@@ -13172,7 +13172,7 @@ trainerdata 283, "Orson"
 		move MOVE_ROCK_SLIDE
 		move MOVE_FLY
 		move MOVE_U_TURN
-		ability ABILITY_DEFEATIST
+		ability ABILITY_VITAL_SPIRIT
 		ballseal 0
     endparty
 
@@ -17416,7 +17416,7 @@ trainerdata 397, "Chad"
 		move MOVE_REFLECT
 		move MOVE_LIGHT_SCREEN
 		move MOVE_STRUGGLE_BUG
-		ability ABILITY_COMPOUND_EYES
+		ability ABILITY_SWARM
 		ballseal 0
     endparty
 
@@ -21331,7 +21331,7 @@ trainerdata 493, "Edith"
 		move MOVE_ENDEAVOR
 		move MOVE_AIR_CUTTER
 		move MOVE_KNOCK_OFF
-		ability ABILITY_KLUTZ
+		ability ABILITY_UNAWARE
 		ballseal 0
     endparty
 
@@ -21597,7 +21597,7 @@ trainerdata 499, "Grunt"
 		move MOVE_ELECTROWEB
 		move MOVE_SILVER_WIND
 		move MOVE_GIGA_DRAIN
-		ability ABILITY_COMPOUND_EYES
+		ability ABILITY_UNNERVE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 240
 		nature NATURE_CALM
@@ -28823,7 +28823,7 @@ trainerdata 693, "Linden"
 		move MOVE_TRICK_ROOM
 		move MOVE_CONFUSE_RAY
 		move MOVE_YAWN
-		ability ABILITY_FOREWARN
+		ability ABILITY_SYNCHRONIZE
 		ballseal 0
 
 		// mon 1
@@ -28847,7 +28847,7 @@ trainerdata 693, "Linden"
 		move MOVE_MOONBLAST
 		move MOVE_YAWN
 		move MOVE_CHARGE_BEAM
-		ability ABILITY_FOREWARN
+		ability ABILITY_SYNCHRONIZE
 		ballseal 0
     endparty
 
