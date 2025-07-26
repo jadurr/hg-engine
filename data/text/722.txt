@@ -46,13 +46,13 @@ Contact with the Pokémon\nmay burn the foe.
 Prevents the Pokémon\nfrom losing accuracy.
 Prevents the Attack\nstat from being lowered.
 The Pokémon may\npick up items.
-Pokémon can’t attack\non consecutive turns.
+The Pokémon may heal its\nown status problems.
 Boosts the Attack stat,\nbut lowers accuracy.
 Contact with the Pokémon\nmay cause infatuation.
 Ups Sp. Atk if another\nPokémon has Minus.
 CASTFORM transforms with\nthe weather.
 Protects the Pokémon\nfrom item theft.
-The Pokémon may heal its\nown status problems.
+Pokémon can’t attack\non consecutive turns.
 Boosts Attack if there is\na status problem.
 Ups Defense if there is\na status problem.
 Inflicts damage on foes\nusing any draining move.
