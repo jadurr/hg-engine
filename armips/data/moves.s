@@ -24,7 +24,7 @@ movedata MOVE_NONE, "-"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_NONE, "\n\n\n\n"
+    movedescription MOVE_NONE, "\n\n\n\n"//20 characters per line, 4 lines total
 
 movedata MOVE_POUND, "Pound"
     battleeffect MOVE_EFFECT_HIT
