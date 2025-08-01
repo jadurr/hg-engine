@@ -27954,12 +27954,12 @@ trainerdata 674, "Alfred"
         ballseal 0
     endparty
 
-trainerdata 675, "Lance"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+trainerdata 675, "Julian Durr"
+    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
     trainerclass TRAINERCLASS_PKMN_TRAINER_LANCE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
+    nummons 3
+    item ITEM_FULL_RESTORE
+    item ITEM_REVIVE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -27967,15 +27967,52 @@ trainerdata 675, "Lance"
     endentry
 
     party 675
-        // mon 0
-        ivs 250
+		// mon 0
+        ivs 255
         abilityslot 0
-        level 40
-        pokemon SPECIES_DRAGONITE
-        move MOVE_FLY
-        move MOVE_TWISTER
-        move MOVE_THUNDER
-        move MOVE_HYPER_BEAM
+        level 43
+        pokemon SPECIES_PAWNIARD
+        item ITEM_BLACK_GLASSES
+        move MOVE_SWORDS_DANCE
+        move MOVE_KNOCK_OFF
+        move MOVE_SUCKER_PUNCH
+        move MOVE_IRON_HEAD
+        ability ABILITY_DEFIANT
+        setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
+        setevs 0, 170, 0, 170, 0, 4
+        nature NATURE_ADAMANT
+        ballseal 0
+
+        // mon 1
+        ivs 255
+        abilityslot 0
+        level 43
+        pokemon SPECIES_LUXRAY
+        item ITEM_CHOICE_BAND
+        move MOVE_ICE_FANG
+        move MOVE_WILD_CHARGE
+        move MOVE_SUPERPOWER
+        move MOVE_VOLT_SWITCH
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
+        setevs 0, 170, 4, 170, 0, 0
+        nature NATURE_ADAMANT
+        ballseal 0
+
+        // mon 2
+        ivs 255
+        abilityslot 0
+        level 46
+        pokemon SPECIES_AEGISLASH
+        item ITEM_WEAKNESS_POLICY
+        move MOVE_KINGS_SHIELD
+        move MOVE_FLASH_CANNON
+        move MOVE_WIDE_GUARD
+        move MOVE_SHADOW_BALL
+        ability ABILITY_STANCE_CHANGE
+        setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
+        setevs 170, 0, 0, 0, 4, 170
+        nature NATURE_SASSY
         ballseal 0
     endparty
 
