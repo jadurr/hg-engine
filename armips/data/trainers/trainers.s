@@ -21561,7 +21561,7 @@ trainerdata 498, "Andrew Hoffman"
 trainerdata 499, "Grunt"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
     trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 5
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -21636,7 +21636,7 @@ trainerdata 499, "Grunt"
 		ballseal 0
 
         // mon 4
-		ivs 255
+		/*ivs 255
 		abilityslot 0
 		level 44
 		pokemon SPECIES_DRAPION
@@ -21649,7 +21649,7 @@ trainerdata 499, "Grunt"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 152, 0, 0, 0
 		nature NATURE_ADAMANT
-		ballseal 0
+		ballseal 0*/
     endparty
 
 trainerdata 500, "Kobe"
@@ -27957,7 +27957,7 @@ trainerdata 674, "Alfred"
 trainerdata 675, "Julian Durr"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
     trainerclass TRAINERCLASS_PKMN_TRAINER_LANCE
-    nummons 3
+    nummons 4
     item ITEM_FULL_RESTORE
     item ITEM_REVIVE
     item ITEM_NONE
@@ -27972,7 +27972,7 @@ trainerdata 675, "Julian Durr"
         abilityslot 0
         level 43
         pokemon SPECIES_PAWNIARD
-        item ITEM_BLACK_GLASSES
+        item ITEM_FOCUS_SASH
         move MOVE_SWORDS_DANCE
         move MOVE_KNOCK_OFF
         move MOVE_SUCKER_PUNCH
@@ -27995,14 +27995,14 @@ trainerdata 675, "Julian Durr"
         move MOVE_VOLT_SWITCH
         ability ABILITY_INTIMIDATE
         setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-        setevs 0, 170, 4, 170, 0, 0
+        setevs 0, 200, 4, 170, 0, 0
         nature NATURE_ADAMANT
         ballseal 0
 
         // mon 2
         ivs 255
         abilityslot 0
-        level 46
+        level 45
         pokemon SPECIES_AEGISLASH
         item ITEM_WEAKNESS_POLICY
         move MOVE_KINGS_SHIELD
@@ -28014,6 +28014,22 @@ trainerdata 675, "Julian Durr"
         setevs 170, 0, 0, 0, 4, 170
         nature NATURE_SASSY
         ballseal 0
+
+		// mon 3
+		ivs 255
+		abilityslot 0
+		level 46
+		pokemon SPECIES_METAGROSS
+		item ITEM_METAGROSSITE
+		move MOVE_ZEN_HEADBUTT
+		move MOVE_METEOR_MASH
+		move MOVE_HAMMER_ARM
+		move MOVE_ICE_PUNCH
+		ability ABILITY_WHITE_SMOKE
+		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
+		setevs 0, 200, 0, 136, 0, 4
+		nature NATURE_JOLLY
+		ballseal 0
     endparty
 
 trainerdata 676, "Parker"
