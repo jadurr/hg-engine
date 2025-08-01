@@ -21636,7 +21636,7 @@ trainerdata 499, "Grunt"
 		ballseal 0
 
         // mon 4
-		/*ivs 255
+		ivs 255
 		abilityslot 0
 		level 44
 		pokemon SPECIES_DRAPION
@@ -21649,7 +21649,7 @@ trainerdata 499, "Grunt"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 152, 0, 0, 0
 		nature NATURE_ADAMANT
-		ballseal 0*/
+		ballseal 0
     endparty
 
 trainerdata 500, "Kobe"
