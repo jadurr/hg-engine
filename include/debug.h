@@ -54,10 +54,10 @@
 //#define DEBUG_INIT_PC_BOXES_WITH_MONS
 
 // DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES will cause any crash from a heap overflow to display error information
-#define DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES
+//#define DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES
 
 // DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES_ASSERT_FAIL will cause any GF_AssertFail call to display error information, even those that would normally in vanilla work fine
-#define DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES_ASSERT_FAIL
+//#define DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES_ASSERT_FAIL
 
 // DEBUG_ALWAYS_OBEY will force all battlers to obey regardless of badges owned
 //#define DEBUG_ALWAYS_OBEY
