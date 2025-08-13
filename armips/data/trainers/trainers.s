@@ -11065,7 +11065,7 @@ trainerdata 253, "Gabriella Melendez"
 		ability ABILITY_INTREPID_SWORD
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
-		nature NATURE_CALM
+		nature NATURE_JOLLY
 		ballseal 0
 
 		// mon 5
