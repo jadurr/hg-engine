@@ -10991,33 +10991,33 @@ trainerdata 253, "Gabriella Melendez"
         // mon 0
 		ivs 255
 		abilityslot 0
-		level 63
-		pokemon SPECIES_JIGGLYPUFF
-		item ITEM_EVIOLITE
-		move MOVE_GYRO_BALL
-		move MOVE_DRAIN_PUNCH
-		move MOVE_SLEEP_TALK
+		level 65
+		pokemon SPECIES_WAILORD
+		item ITEM_LEFTOVERS
+		move MOVE_BLOCK
 		move MOVE_REST
-		ability ABILITY_CUTE_CHARM
+		move MOVE_NOBLE_ROAR
+		move MOVE_TOXIC
+		ability ABILITY_PRESSURE
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 252, 150, 0, 0, 108
-		nature NATURE_BRAVE
+		setevs 0, 0, 252, 4, 0, 252
+		nature NATURE_CALM
 		ballseal 0
 
 		// mon 1
 		ivs 255
 		abilityslot 0
 		level 63
-		pokemon SPECIES_VENUSAUR
-		item ITEM_VENUSAURITE
-		move MOVE_LEECH_SEED
-		move MOVE_SLUDGE_BOMB
-		move MOVE_HIDDEN_POWER
-		move MOVE_SYNTHESIS
-		ability ABILITY_CHLOROPHYLL
-		setivs 31, 30, 31, 30, 30, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 252, 0, 172, 16, 0, 68
-		nature NATURE_BOLD
+		pokemon SPECIES_XERNEAS
+		item ITEM_POWER_HERB
+		move MOVE_GEOMANCY
+		move MOVE_MOONBLAST
+		move MOVE_THUNDER
+		move MOVE_SUBSTITUTE
+		ability ABILITY_FAIRY_AURA
+		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
+		setevs 0, 0, 168, 88, 252, 0
+		nature NATURE_MODEST
 		ballseal 0
 
 		// mon 2
@@ -11056,15 +11056,15 @@ trainerdata 253, "Gabriella Melendez"
 		ivs 255
 		abilityslot 0
 		level 65
-		pokemon SPECIES_WAILORD
-		item ITEM_LEFTOVERS
-		move MOVE_BLOCK
-		move MOVE_REST
-		move MOVE_NOBLE_ROAR
-		move MOVE_TOXIC
-		ability ABILITY_PRESSURE
+		pokemon SPECIES_ZACIAN
+		item ITEM_RUSTED_SWORD
+		move MOVE_SWORDS_DANCE
+		move MOVE_BEHEMOTH_BLADE
+		move MOVE_CLOSE_COMBAT
+		move MOVE_WILD_CHARGE
+		ability ABILITY_INTREPID_SWORD
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 0, 252, 4, 0, 252
+		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_CALM
 		ballseal 0
 
