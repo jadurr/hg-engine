@@ -131,6 +131,10 @@
 #define TRAINERCLASS_PKMN_TRAINER_LUCAS_PT  127
 #define TRAINERCLASS_PKMN_TRAINER_DAWN_PT   128
 #define TRAINERCLASS_WITCH                  129
+#define TRAINERCLASS_DA_GUITARIST           130
+#define TRAINERCLASS_SOUNDWAVE_ENGINEER     131
+#define TRAINERCLASS_SLEEPYGUY              132
+#define TRAINERCLASS_ORION                  134
 
 // Only used to display attributes of phone contacts
 #define TRAINERCLASS_PHONE_MOM               200
