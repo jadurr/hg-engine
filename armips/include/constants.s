@@ -532,7 +532,7 @@
 .equ TRAINERCLASS_DA_GUITARIST,            130
 .equ TRAINERCLASS_SOUNDWAVE_ENGINEER,      131
 .equ TRAINERCLASS_SLEEPYGUY,              132
-.equ TRAINERCLASS_ORION,                  134
+.equ TRAINERCLASS_ORION,                  133
 
 // trainer data flags
 
