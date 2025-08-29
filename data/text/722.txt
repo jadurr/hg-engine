@@ -187,7 +187,7 @@ Changes with other Cells\nif HP becomes half or less.
 It can poison Steel- and\nPoison-type targets.
 Damages an attacker that\nlands the finishing hit.
 Repeats another Pokémon’s\ndance move immediately.
-Powers up ally\nPokémon’s special moves.
+Prevents the Pokémon\nfrom falling asleep.
 Resists contact damage\nbut weaker to Fire-type.
 Makes foes unable to\nuse priority attacks.
 Boosts Sp. Atk each\ntime a Pokémon faints.
@@ -254,7 +254,7 @@ Transforms into its Terastal Form\nupon entering battle.
 Resists all damage when\nHP is full.
 Reduces effects of weather\nand terrain to zero.
 Pokémon poisoned by Pecharunt\nwill also become confused.
-Prevents the Pokémon\nfrom falling asleep.
+Powers up ally\nPokémon’s special moves.
 Changes the Pokémon’s\ntype to the foe’s move.
 Prevents its stats from\nbeing lowered.
 Raises the likelihood of\nmeeting wild Pokémon.

@@ -187,7 +187,7 @@ Power Construct
 Corrosion
 Innards Out
 Dancer
-Battery
+Insomnia
 Fluffy
 Dazzling
 Soul-Heart
@@ -254,7 +254,7 @@ Tera Shift
 Tera Shell
 Teraform Zero
 Poison Puppeteer
-Insomnia
+Battery
 Color Change
 Clear Body
 Illuminate

@@ -2042,7 +2042,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_NONE
+    abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DROWZEE, "If you think that you had a good dream\nbut you can’t remember it,\na DROWZEE has probably eaten it."
@@ -2063,7 +2063,7 @@ mondata SPECIES_HYPNO, "Hypno"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_NONE
+    abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_HYPNO, "When it is very hungry, it puts\nhumans it meets to sleep,\nthen it feasts on their dreams."
@@ -3449,7 +3449,7 @@ mondata SPECIES_HOOTHOOT, "Hoothoot"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_KEEN_EYE
+    abilities ABILITY_INSOMNIA, ABILITY_KEEN_EYE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_HOOTHOOT, "It always stands on one foot.\nIt changes feet so fast,\nthe movement can rarely be seen."
@@ -3470,7 +3470,7 @@ mondata SPECIES_NOCTOWL, "Noctowl"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_KEEN_EYE
+    abilities ABILITY_INSOMNIA, ABILITY_KEEN_EYE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_NOCTOWL, "Its eyes are specially adapted.\nThey concentrate even faint light\nand enable it to see in the dark."
@@ -3533,7 +3533,7 @@ mondata SPECIES_SPINARAK, "Spinarak"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_VITAL_SPIRIT
+    abilities ABILITY_SWARM, ABILITY_INSOMNIA
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_SPINARAK, "It lies still in the same pose for\ndays in its web, waiting for its\nunsuspecting prey to wander close."
@@ -3554,7 +3554,7 @@ mondata SPECIES_ARIADOS, "Ariados"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_VITAL_SPIRIT
+    abilities ABILITY_SWARM, ABILITY_INSOMNIA
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ARIADOS, "It spins string not only from its\nrear but also from its mouth. It’s\nhard to tell which end is which."
@@ -4184,7 +4184,7 @@ mondata SPECIES_MURKROW, "Murkrow"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_SUPER_LUCK
+    abilities ABILITY_INSOMNIA, ABILITY_SUPER_LUCK
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_MURKROW, "Feared and loathed by many,\nit is believed to bring misfortune to\nall those who see it at night."
@@ -7439,7 +7439,7 @@ mondata SPECIES_SHUPPET, "Shuppet"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_FRISK
+    abilities ABILITY_INSOMNIA, ABILITY_FRISK
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_SHUPPET, "It uses its horn to feed on envy\nand malice, or so it’s said.\nIt’s very active at night."
@@ -7460,7 +7460,7 @@ mondata SPECIES_BANETTE, "Banette"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_FRISK
+    abilities ABILITY_INSOMNIA, ABILITY_FRISK
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_BANETTE, "This Pokémon developed from an\nabandoned doll that amassed a\ngrudge. It is seen in dark alleys."
@@ -9056,7 +9056,7 @@ mondata SPECIES_HONCHKROW, "Honchkrow"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_SUPER_LUCK
+    abilities ABILITY_INSOMNIA, ABILITY_SUPER_LUCK
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_HONCHKROW, "It is merciless by nature. It is said\nthat it never forgives the mistakes\nof its MURKROW followers."
@@ -20333,7 +20333,7 @@ mondata SPECIES_TAROUNTULA, "Tarountula"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_NONE
+    abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_TAROUNTULA, "The ball of threads wrapped around its body\nis elastic enough to deflect the scythes of\nScyther, this Pokémon’s natural enemy."
@@ -20354,7 +20354,7 @@ mondata SPECIES_SPIDOPS, "Spidops"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_NONE
+    abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_SPIDOPS, "It clings to branches and ceilings using its\nthreads and moves without a sound. It takes\nout its prey before the prey even notices it."
@@ -21047,7 +21047,7 @@ mondata SPECIES_CAPSAKID, "Capsakid"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_VITAL_SPIRIT
+    abilities ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_CAPSAKID, "The more sunlight this Pokémon bathes in,\nthe more spicy chemicals are produced by its\nbody, and thus the spicier its moves become."
@@ -21068,7 +21068,7 @@ mondata SPECIES_SCOVILLAIN, "Scovillain"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_VITAL_SPIRIT
+    abilities ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_SCOVILLAIN, "The red head converts spicy chemicals into\nfire energy and blasts the surrounding area\nwith a super spicy stream of flame."
@@ -22846,7 +22846,7 @@ mondata SPECIES_MEGA_MEWTWO_Y, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_NONE
+    abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
     colorflip 0, 0
 
