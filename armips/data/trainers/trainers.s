@@ -1758,7 +1758,7 @@ trainerdata 31, "Isaac Samuels"
     endparty
 
 trainerdata 32, "Gabriella Melendez"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_PRYCE
     nummons 6
     item ITEM_HYPER_POTION
@@ -1784,6 +1784,7 @@ trainerdata 32, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 150, 0, 0, 108
 		nature NATURE_BRAVE
+		shinylock 0
 		ballseal 0
 
         // mon 1
@@ -1800,6 +1801,7 @@ trainerdata 32, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 4, 252, 252, 0
 		nature NATURE_TIMID
+		shinylock 0
 		ballseal 0
 
         // mon 2
@@ -1816,6 +1818,7 @@ trainerdata 32, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 4, 252, 0, 0
 		nature NATURE_JOLLY
+		shinylock 1
 		ballseal 0
 
         // mon 3
@@ -1832,6 +1835,7 @@ trainerdata 32, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 36, 196, 0, 236, 0, 36
 		nature NATURE_ADAMANT
+		shinylock 0
 		ballseal 0
 
         // mon 4
@@ -1848,6 +1852,7 @@ trainerdata 32, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 252, 4, 0, 252
 		nature NATURE_CALM
+		shinylock 0
 		ballseal 0
 
         // mon 5
@@ -1864,6 +1869,7 @@ trainerdata 32, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_JOLLY
+		shinylock 0
 		ballseal 0
     endparty
 
@@ -10976,7 +10982,7 @@ trainerdata 252, "Harold"
     endparty
 
 trainerdata 253, "Gabriella Melendez"
-    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_BROCK
     nummons 6
     item ITEM_FULL_RESTORE
@@ -11002,6 +11008,7 @@ trainerdata 253, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 252, 4, 0, 252
 		nature NATURE_CALM
+		shinylock 0
 		ballseal 0
 
 		// mon 1
@@ -11018,6 +11025,7 @@ trainerdata 253, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 168, 88, 252, 0
 		nature NATURE_MODEST
+		shinylock 0
 		ballseal 0
 
 		// mon 2
@@ -11034,6 +11042,7 @@ trainerdata 253, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 4, 252, 0, 0
 		nature NATURE_JOLLY
+		shinylock 1
 		ballseal 0
 
 		// mon 3
@@ -11050,6 +11059,7 @@ trainerdata 253, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_ADAMANT
+		shinylock 0
 		ballseal 0
 
 		// mon 4
@@ -11066,6 +11076,7 @@ trainerdata 253, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_JOLLY
+		shinylock 1
 		ballseal 0
 
 		// mon 5
@@ -11082,6 +11093,7 @@ trainerdata 253, "Gabriella Melendez"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_JOLLY
+		shinylock 0
 		ballseal 0
     endparty
 
@@ -11856,7 +11868,7 @@ trainerdata 260, "Clay Scott"
     endparty
 
 trainerdata 261, "Julian Durr"
-    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_BLUE
     nummons 6
     item ITEM_FULL_RESTORE
@@ -11882,6 +11894,7 @@ trainerdata 261, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 252, 0, 0, 4
 		nature NATURE_IMPISH
+		shinylock 0
 		ballseal 0
 
 		// mon 1
@@ -11898,6 +11911,7 @@ trainerdata 261, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 232, 60, 0, 176, 0, 40
 		nature NATURE_JOLLY
+		shinylock 0
 		ballseal 0
 
 		// mon 2
@@ -11914,6 +11928,7 @@ trainerdata 261, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 248, 252, 0, 0, 0, 8
 		nature NATURE_ADAMANT
+		shinylock 0
 		ballseal 0
 
 		// mon 3
@@ -11930,6 +11945,7 @@ trainerdata 261, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 4, 252, 0, 0
 		nature NATURE_ADAMANT
+		shinylock 0
 		ballseal 0
 
 		// mon 4
@@ -11946,6 +11962,7 @@ trainerdata 261, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 0, 0, 4, 252
 		nature NATURE_SASSY
+		shinylock 1
 		ballseal 0
 
 		// mon 5
@@ -11962,6 +11979,7 @@ trainerdata 261, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 252, 252, 4
 		nature NATURE_TIMID
+		shinylock 0
 		ballseal 0
     endparty
 
@@ -18195,7 +18213,7 @@ trainerdata 417, "Jenn"
     endparty
 
 trainerdata 418, "Julian Durr"
-    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
     nummons 6
     item ITEM_FULL_RESTORE
@@ -18221,6 +18239,7 @@ trainerdata 418, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 252, 0, 0, 4
 		nature NATURE_IMPISH
+		shinylock 0
 		ballseal 0
 
         // mon 1
@@ -18237,6 +18256,7 @@ trainerdata 418, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 232, 60, 0, 176, 0, 40
 		nature NATURE_JOLLY
+		shinylock 0
 		ballseal 0
 
         // mon 2
@@ -18253,6 +18273,7 @@ trainerdata 418, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 0, 252, 0, 4
 		nature NATURE_ADAMANT
+		shinylock 0
 		ballseal 0
 
         // mon 3
@@ -18269,6 +18290,7 @@ trainerdata 418, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 252, 4, 252, 0, 0
 		nature NATURE_ADAMANT
+		shinylock 0
 		ballseal 0
 
         // mon 4
@@ -18285,6 +18307,7 @@ trainerdata 418, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 252, 0, 0, 0, 4, 252
 		nature NATURE_SASSY
+		shinylock 1
 		ballseal 0
 
         // mon 5
@@ -18301,6 +18324,7 @@ trainerdata 418, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 0, 0, 252, 252, 4
 		nature NATURE_TIMID
+		shinylock 0
 		ballseal 0
     endparty
 
@@ -27955,7 +27979,7 @@ trainerdata 674, "Alfred"
     endparty
 
 trainerdata 675, "Julian Durr"
-    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_PKMN_TRAINER_LANCE
     nummons 4
     item ITEM_FULL_RESTORE
@@ -27981,6 +28005,7 @@ trainerdata 675, "Julian Durr"
         setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
         setevs 0, 170, 0, 170, 0, 4
         nature NATURE_ADAMANT
+		shinylock 0
         ballseal 0
 
         // mon 1
@@ -27997,6 +28022,7 @@ trainerdata 675, "Julian Durr"
         setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
         setevs 0, 200, 4, 170, 0, 0
         nature NATURE_ADAMANT
+		shinylock 0
         ballseal 0
 
         // mon 2
@@ -28013,6 +28039,7 @@ trainerdata 675, "Julian Durr"
         setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
         setevs 170, 0, 0, 0, 4, 170
         nature NATURE_SASSY
+		shinylock 1
         ballseal 0
 
 		// mon 3
@@ -28029,6 +28056,7 @@ trainerdata 675, "Julian Durr"
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
 		setevs 0, 200, 0, 136, 0, 4
 		nature NATURE_JOLLY
+		shinylock 0
 		ballseal 0
     endparty
 
