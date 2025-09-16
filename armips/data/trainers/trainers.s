@@ -32,7 +32,7 @@ trainerdata 0, "-"
 
 trainerdata 1, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -94,7 +94,7 @@ trainerdata 1, "Laura Bertino"
 
 trainerdata 2, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -123,7 +123,7 @@ trainerdata 2, "Laura Bertino"
 
 trainerdata 3, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -420,7 +420,7 @@ trainerdata 10, "Amy & Mimi"
 
 trainerdata 11, "Victor Herrera-Arias"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_KIMONO_GIRL
+    trainerclass TRAINERCLASS_VICTOR
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -989,7 +989,7 @@ trainerdata 19, "Shanna Merceron"
 
 trainerdata 20, "Zak Scott"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_FALKNER
+    trainerclass TRAINERCLASS_ZAK
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -1099,7 +1099,7 @@ trainerdata 20, "Zak Scott"
 
 trainerdata 21, "Abby Coyler"
     trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_BUGSY
+    trainerclass TRAINERCLASS_ABBY
     nummons 6
     item ITEM_SUPER_POTION
     item ITEM_NONE
@@ -1539,7 +1539,7 @@ trainerdata 29, "Rod"
 
 trainerdata 30, "Brennan Holloway"
     trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_WHITNEY
+    trainerclass TRAINERCLASS_BRENNAN
     nummons 6
     item ITEM_SUPER_POTION
     item ITEM_SUPER_POTION
@@ -1649,7 +1649,7 @@ trainerdata 30, "Brennan Holloway"
 
 trainerdata 31, "Isaac Samuels"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_MORTY
+    trainerclass TRAINERCLASS_ISAAC
     nummons 6
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
@@ -1759,7 +1759,7 @@ trainerdata 31, "Isaac Samuels"
 
 trainerdata 32, "Gabriella Melendez"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
-    trainerclass TRAINERCLASS_LEADER_PRYCE
+    trainerclass TRAINERCLASS_GABRIELLA
     nummons 6
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
@@ -1875,7 +1875,7 @@ trainerdata 32, "Gabriella Melendez"
 
 trainerdata 33, "Austin Acheson"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_JASMINE
+    trainerclass TRAINERCLASS_AUSTIN
     nummons 6
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
@@ -1985,7 +1985,7 @@ trainerdata 33, "Austin Acheson"
 
 trainerdata 34, "Justin Scott"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_CHUCK
+    trainerclass TRAINERCLASS_JUSTIN
     nummons 6
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
@@ -2095,7 +2095,7 @@ trainerdata 34, "Justin Scott"
 
 trainerdata 35, "Daniel Spasic"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_CLAIR
+    trainerclass TRAINERCLASS_DANIEL
     nummons 6
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
@@ -2349,7 +2349,7 @@ trainerdata 39, "Eugene"
 
 trainerdata 40, "Sonja Scott"
     trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_SUPER_NERD
+    trainerclass TRAINERCLASS_SONJA
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_REVIVE
@@ -10667,7 +10667,7 @@ trainerdata 246, "Cole Pegram"
 
 trainerdata 247, "Kate DeBlasis"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ELITE_FOUR_KOGA
+    trainerclass TRAINERCLASS_KATE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -10983,7 +10983,7 @@ trainerdata 252, "Harold"
 
 trainerdata 253, "Gabriella Melendez"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
-    trainerclass TRAINERCLASS_LEADER_BROCK
+    trainerclass TRAINERCLASS_GABRIELLA
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11099,7 +11099,7 @@ trainerdata 253, "Gabriella Melendez"
 
 trainerdata 254, "Isaac Samuels"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_MISTY
+    trainerclass TRAINERCLASS_ISAAC
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11209,7 +11209,7 @@ trainerdata 254, "Isaac Samuels"
 
 trainerdata 255, "Zak Scott"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_LT_SURGE
+    trainerclass TRAINERCLASS_ZAK
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11319,7 +11319,7 @@ trainerdata 255, "Zak Scott"
 
 trainerdata 256, "Brennan Holloway"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_ERIKA
+    trainerclass TRAINERCLASS_BRENNAN
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11429,7 +11429,7 @@ trainerdata 256, "Brennan Holloway"
 
 trainerdata 257, "Austin Acheson"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_JANINE
+    trainerclass TRAINERCLASS_AUSTIN
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11539,7 +11539,7 @@ trainerdata 257, "Austin Acheson"
 
 trainerdata 258, "Justin Scott"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_SABRINA
+    trainerclass TRAINERCLASS_JUSTIN
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11649,7 +11649,7 @@ trainerdata 258, "Justin Scott"
 
 trainerdata 259, "Kate DeBlasis"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_LEADER_BLAINE
+    trainerclass TRAINERCLASS_KATE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11759,7 +11759,7 @@ trainerdata 259, "Kate DeBlasis"
 
 trainerdata 260, "Clay Scott"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_IV_EV_SET
-    trainerclass TRAINERCLASS_PKMN_TRAINER_RED
+    trainerclass TRAINERCLASS_CLAY
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -11869,7 +11869,7 @@ trainerdata 260, "Clay Scott"
 
 trainerdata 261, "Julian Durr"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
-    trainerclass TRAINERCLASS_LEADER_BLUE
+    trainerclass TRAINERCLASS_JULIAN
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -12020,7 +12020,7 @@ trainerdata 262, "Mickey"
 
 trainerdata 263, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -12098,7 +12098,7 @@ trainerdata 263, "Laura Bertino"
 
 trainerdata 264, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -12208,7 +12208,7 @@ trainerdata 264, "Laura Bertino"
 
 trainerdata 265, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -12237,7 +12237,7 @@ trainerdata 265, "Laura Bertino"
 
 trainerdata 266, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -12299,7 +12299,7 @@ trainerdata 266, "Laura Bertino"
 
 trainerdata 267, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -12377,7 +12377,7 @@ trainerdata 267, "Laura Bertino"
 
 trainerdata 268, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -12487,7 +12487,7 @@ trainerdata 268, "Laura Bertino"
 
 trainerdata 269, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -12549,7 +12549,7 @@ trainerdata 269, "Laura Bertino"
 
 trainerdata 270, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -12627,7 +12627,7 @@ trainerdata 270, "Laura Bertino"
 
 trainerdata 271, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 5
     item ITEM_NONE
     item ITEM_NONE
@@ -12721,7 +12721,7 @@ trainerdata 271, "Laura Bertino"
 
 trainerdata 272, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -13238,7 +13238,7 @@ trainerdata 284, "Corey"
 
 trainerdata 285, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -13348,7 +13348,7 @@ trainerdata 285, "Laura Bertino"
 
 trainerdata 286, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -13458,7 +13458,7 @@ trainerdata 286, "Laura Bertino"
 
 trainerdata 287, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -13568,7 +13568,7 @@ trainerdata 287, "Laura Bertino"
 
 trainerdata 288, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 5
     item ITEM_NONE
     item ITEM_NONE
@@ -13662,7 +13662,7 @@ trainerdata 288, "Laura Bertino"
 
 trainerdata 289, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_RIVAL
+    trainerclass TRAINERCLASS_LAURA
     nummons 5
     item ITEM_NONE
     item ITEM_NONE
@@ -18214,7 +18214,7 @@ trainerdata 417, "Jenn"
 
 trainerdata 418, "Julian Durr"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
-    trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
+    trainerclass TRAINERCLASS_JULIAN
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -20316,7 +20316,7 @@ trainerdata 477, "Mickey"
 
 trainerdata 478, "Bruce Jones"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
+    trainerclass TRAINERCLASS_BRUCE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -20426,7 +20426,7 @@ trainerdata 478, "Bruce Jones"
 
 trainerdata 479, "Bruce Jones"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
+    trainerclass TRAINERCLASS_BRUCE
     nummons 5
     item ITEM_NONE
     item ITEM_NONE
@@ -20732,7 +20732,7 @@ trainerdata 484, "Gerardo"
 
 trainerdata 485, "Clay Scott"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_EXECUTIVE_ARCHER
+    trainerclass TRAINERCLASS_CLAY
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_REVIVE
@@ -20842,7 +20842,7 @@ trainerdata 485, "Clay Scott"
 
 trainerdata 486, "Samer Abielmona"
     trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_EXECUTIVE_PROTON
+    trainerclass TRAINERCLASS_SAMER
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -21387,7 +21387,7 @@ trainerdata 494, "Georgina"
 
 trainerdata 495, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_PASSERBY
+    trainerclass TRAINERCLASS_LAURA
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -21416,7 +21416,7 @@ trainerdata 495, "Laura Bertino"
 
 trainerdata 496, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_PASSERBY
+    trainerclass TRAINERCLASS_LAURA
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -21445,7 +21445,7 @@ trainerdata 496, "Laura Bertino"
 
 trainerdata 497, "Laura Bertino"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_PASSERBY
+    trainerclass TRAINERCLASS_LAURA
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -21474,7 +21474,7 @@ trainerdata 497, "Laura Bertino"
 
 trainerdata 498, "Andrew Hoffman"
     trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_MYSTERY_MAN
+    trainerclass TRAINERCLASS_ANDREW
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -27980,7 +27980,7 @@ trainerdata 674, "Alfred"
 
 trainerdata 675, "Julian Durr"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
-    trainerclass TRAINERCLASS_PKMN_TRAINER_LANCE
+    trainerclass TRAINERCLASS_PKMN_TRAINER_JULIAN
     nummons 4
     item ITEM_FULL_RESTORE
     item ITEM_REVIVE
@@ -29635,7 +29635,7 @@ trainerdata 705, "Karen"
 
 trainerdata 706, "Samer Abielmona"
     trainermontype TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_EXECUTIVE_PROTON
+    trainerclass TRAINERCLASS_SAMER
     nummons 6
     item ITEM_SUPER_POTION
     item ITEM_SUPER_POTION
