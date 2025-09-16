@@ -135,6 +135,24 @@
 #define TRAINERCLASS_SOUNDWAVE_ENGINEER     131
 #define TRAINERCLASS_SLEEPYGUY              132
 #define TRAINERCLASS_ORION                  133
+#define TRAINERCLASS_KATE                   134
+#define TRAINERCLASS_GABRIELLA              135
+#define TRAINERCLASS_AUSTIN                 136
+#define TRAINERCLASS_ABBY                   137
+#define TRAINERCLASS_CLAY                   138
+#define TRAINERCLASS_VICTOR                 139
+#define TRAINERCLASS_BRENNAN                140
+#define TRAINERCLASS_ANDREW                 141
+#define TRAINERCLASS_SONJA                  142
+#define TRAINERCLASS_JULIAN                 143
+#define TRAINERCLASS_PKMN_TRAINER_JULIAN    144
+#define TRAINERCLASS_LAURA                  145
+#define TRAINERCLASS_BRUCE                  146
+#define TRAINERCLASS_ZAK                    147
+#define TRAINERCLASS_JUSTIN                 148
+#define TRAINERCLASS_DANIEL                 149
+#define TRAINERCLASS_ISAAC                  150
+#define TRAINERCLASS_SAMER                  151
 
 // Only used to display attributes of phone contacts
 #define TRAINERCLASS_PHONE_MOM               200
