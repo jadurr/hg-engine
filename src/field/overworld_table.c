@@ -1677,7 +1677,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1796, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
     { .tag = 1797, .gfx = 1547, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT
 
-    /*NEW_NPC_ENTRY(0), // Kate 1553
+    NEW_NPC_ENTRY(0), // Kate 1553
     NEW_NPC_ENTRY(1), // Gabriella 1554
     NEW_NPC_ENTRY(2), // Austin 1555
     NEW_NPC_ENTRY(3), // Abby 1556
@@ -1699,7 +1699,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     NEW_NPC_ENTRY(19), // Isaac 1572
     NEW_NPC_ENTRY(20), // Samer 1573
     NEW_NPC_ENTRY(21), // Julian 1574
-*/
+
     { 0xFFFF, 0, 0},
 };
 
