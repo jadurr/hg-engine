@@ -1,4 +1,4 @@
--
+ -
 Stench
 Drizzle
 Speed Boost
@@ -13,6 +13,8 @@ Water Absorb
 Oblivious
 Cloud Nine
 CompoundEyes
+Insomnia
+Color Change
 Immunity
 Flash Fire
 Shield Dust
@@ -25,12 +27,15 @@ Wonder Guard
 Levitate
 Effect Spore
 Synchronize
+Clear Body
 Natural Cure
 Lightning Rod
 Serene Grace
 Swift Swim
 Chlorophyll
+Illuminate
 Trace
+Huge Power
 Poison Point
 Inner Focus
 Magma Armor
@@ -43,16 +48,18 @@ Pressure
 Thick Fat
 Early Bird
 Flame Body
+Run Away
 Keen Eye
 Hyper Cutter
 Pickup
-Shed Skin
+Truant
 Hustle
 Cute Charm
 Plus
+Minus
 Forecast
 Sticky Hold
-Truant
+Shed Skin
 Guts
 Marvel Scale
 Liquid Ooze
@@ -66,6 +73,8 @@ Arena Trap
 Vital Spirit
 White Smoke
 Pure Power
+Shell Armor
+Air Lock
 Tangled Feet
 Motor Drive
 Rivalry
@@ -74,6 +83,7 @@ Snow Cloak
 Gluttony
 Anger Point
 Unburden
+Heatproof
 Simple
 Dry Skin
 Download
@@ -88,11 +98,15 @@ Normalize
 Sniper
 Magic Guard
 No Guard
+Stall
 Technician
 Leaf Guard
+Klutz
 Mold Breaker
 Super Luck
 Aftermath
+Anticipation
+Forewarn
 Unaware
 Tinted Lens
 Filter
@@ -100,7 +114,9 @@ Slow Start
 Scrappy
 Storm Drain
 Ice Body
+Solid Rock
 Snow Warning
+Honey Gather
 Frisk
 Reckless
 Multitype
@@ -111,6 +127,7 @@ Sheer Force
 Contrary
 Unnerve
 Defiant
+Defeatist
 Cursed Body
 Healer
 Friend Guard
@@ -133,6 +150,7 @@ Analytic
 Illusion
 Imposter
 Infiltrator
+Mummy
 Moxie
 Justified
 Rattled
@@ -140,8 +158,11 @@ Magic Bounce
 Sap Sipper
 Prankster
 Sand Force
+Iron Barbs
 Zen Mode
 Victory Star
+Turboblaze
+Teravolt
 Aroma Veil
 Flower Veil
 Cheek Pouch
@@ -156,6 +177,7 @@ Sweet Veil
 StanceChange
 Gale Wings
 MegaLauncher
+Grass Pelt
 Symbiosis
 Tough Claws
 Pixilate
@@ -169,10 +191,14 @@ Primordial Sea
 Desolate Land
 Delta Stream
 Stamina
+Wimp Out
 EmergencyExit
+WaterCompaction
+Merciless
 Shields Down
 Stakeout
 Water Bubble
+Steelworker
 Berserk
 Slush Rush
 Long Reach
@@ -185,12 +211,16 @@ Disguise
 Battle Bond
 Power Construct
 Corrosion
+Comatose
+Queenly Majesty
 Innards Out
 Dancer
-Insomnia
+Battery
 Fluffy
 Dazzling
 Soul-Heart
+Tangling Hair
+Receiver
 Power of Alchemy
 Beast Boost
 RKS System
@@ -198,15 +228,22 @@ Electric Surge
 Psychic Surge
 Misty Surge
 Grassy Surge
+FullMetalBody
+Shadow Shield
+Prism Armor
 Neuroforce
 IntrepidSword
 Dauntless Shield
+Libero
+Ball Fetch
 Cotton Down
+Propeller Tail
 Mirror Armor
 Gulp Missile
 Stalwart
 Steam Engine
 Punk Rock
+Sand Spit
 Ice Scales
 Ripen
 Ice Face
@@ -220,11 +257,17 @@ Gorilla Tactics
 Neutralizing Gas
 Pastel Veil
 Hunger Switch
+Quick Draw
 Unseen Fist
+Curious Medicine
 Transistor
+Dragon’s Maw
+Chilling Neigh
+Grim Neigh
 As One
 As One
 Lingering Aroma
+Seed Sower
 Thermal Exchange
 Anger Shell
 Purifying Salt
@@ -234,6 +277,7 @@ Guard Dog
 Rocky Payload
 Wind Power
 Zero to Hero
+Commander
 Electromorphosis
 Protosynthesis
 Quark Drive
@@ -242,70 +286,26 @@ Vessel of Ruin
 Sword of Ruin
 Tablets of Ruin
 Beads of Ruin
+Orichalcum Pulse
 Hadron Engine
+Opportunist
 Cud Chew
 Sharpness
 Supreme Overlord
-Toxic Debris
-Earth Eater
-Hospitality
-Supersweet Syrup
-Tera Shift
-Tera Shell
-Teraform Zero
-Poison Puppeteer
-Battery
-Color Change
-Clear Body
-Illuminate
-Huge Power
-Run Away
-Minus
-Shell Armor
-Air Lock
-Heatproof
-Stall
-Klutz
-Anticipation
-Forewarn
-Solid Rock
-Honey Gather
-Defeatist
-Mummy
-Iron Barbs
-Turboblaze
-Teravolt
-Grass Pelt
-Wimp Out
-WaterCompaction
-Merciless
-Steelworker
-Comatose
-Queenly Majesty
-Tangling Hair
-Receiver
-FullMetalBody
-Shadow Shield
-Prism Armor
-Libero
-Ball Fetch
-Propeller Tail
-Sand Spit
-Quick Draw
-Curious Medicine
-Dragon’s Maw
-Chilling Neigh
-Grim Neigh
-Seed Sower
-Commander
-Orichalcum Pulse
-Opportunist
 Costar
+Toxic Debris
 Armor Tail
+Earth Eater
 Mycelium Might
+Hospitality
 Mind’s Eye
 Embody Aspect
 Embody Aspect
 Embody Aspect
 Embody Aspect
 Toxic Chain
+Supersweet Syrup
+Tera Shift
+Tera Shell
+Teraform Zero
+Poison Puppeteer

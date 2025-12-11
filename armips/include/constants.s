@@ -258,29 +258,6 @@
 .equ TRAINERCLASS_PKMN_TRAINER_DAWN_DP,   126
 .equ TRAINERCLASS_PKMN_TRAINER_LUCAS_PT,  127
 .equ TRAINERCLASS_PKMN_TRAINER_DAWN_PT,   128
-.equ TRAINERCLASS_WITCH,                  129
-.equ TRAINERCLASS_DA_GUITARIST,           130
-.equ TRAINERCLASS_SOUNDWAVE_ENGINEER,     131
-.equ TRAINERCLASS_SLEEPYGUY,              132
-.equ TRAINERCLASS_ORION,                  133
-.equ TRAINERCLASS_KATE,                   134
-.equ TRAINERCLASS_GABRIELLA,              135
-.equ TRAINERCLASS_AUSTIN,                 136
-.equ TRAINERCLASS_ABBY,                   137
-.equ TRAINERCLASS_CLAY,                   138
-.equ TRAINERCLASS_VICTOR,                 139
-.equ TRAINERCLASS_BRENNAN,                140
-.equ TRAINERCLASS_ANDREW,                 141
-.equ TRAINERCLASS_SONJA,                  142
-.equ TRAINERCLASS_JULIAN,                 143
-.equ TRAINERCLASS_PKMN_TRAINER_JULIAN,    144
-.equ TRAINERCLASS_LAURA,                  145
-.equ TRAINERCLASS_BRUCE,                  146
-.equ TRAINERCLASS_ZAK,                    147
-.equ TRAINERCLASS_JUSTIN,                 148
-.equ TRAINERCLASS_DANIEL,                 149
-.equ TRAINERCLASS_ISAAC,                  150
-.equ TRAINERCLASS_SAMER,                  151
 
 // pokedex data constants
 .equ DEX_END_AREA_DATA, 0x0
