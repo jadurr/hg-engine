@@ -110,12 +110,6 @@ _0000: // Trainer 0
     trainertextentry 495, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
     trainertextentry 495, TEXT_PLAYER_LOSES, "...Humph!\nThat was a waste of time.\n"
 
-_000A: // Trainer 19
-    trainertextentry  19, TEXT_NOTICE_IN_OVERWORLD, "Are you ready to bleed\n for the Old Gods?\r"
-    trainertextentry  19, TEXT_LAST_MON_SENT_OUT, "I can taste your blood \nand foresee your end!\n"
-    trainertextentry  19, TEXT_DEFEATED_IN_BATTLE, "Mmm, that was worth \rattling the stars.\n"
-    trainertextentry  19, TEXT_PLAYER_LOSES, "Looks like this Bagel \nis ready for sacrifice!\n"
-
 _000C: // Trainer 496
     trainertextentry 496, TEXT_LAST_MON_CRITICAL, "...Humph!\nYou’re doing OK for someone weak.\n"
     trainertextentry 496, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
@@ -464,10 +458,9 @@ _0364: // Trainer 117
     trainertextentry 117, TEXT_DEFEATED_IN_OVERWORLD, "Dragons are weak against\nDragon-type moves.\n"
 
 _0370: // Trainer 245
-    trainertextentry 245, TEXT_LAST_MON_SENT_OUT, "Saved the best for last! \n"
-    trainertextentry 245, TEXT_LAST_MON_CRITICAL, "Where the hell\n are my full restores?!?\n"
-    trainertextentry 245, TEXT_DEFEATED_IN_BATTLE, "Aw fiddlesticks,\rI can’t believe \nyou’ve done this\n"
-    trainertextentry 245, TEXT_PLAYER_LOSES, "Is that all ya got, chump?\n"
+    trainertextentry 245, TEXT_LAST_MON_SENT_OUT, "We Psychics don’t give up even when\nwe’re down to the last Pokémon.\rThat’s what makes us so formidable!\n"
+    trainertextentry 245, TEXT_LAST_MON_CRITICAL, "Until we hit zero, our power is limitless.\nI’m not giving up yet!\n"
+    trainertextentry 245, TEXT_DEFEATED_IN_BATTLE, "I... I can’t...believe it...\n"
 
 _037C: // Trainer 247
     trainertextentry 247, TEXT_LAST_MON_SENT_OUT, "One Pokémon left?\rHa ha ha! I’ve been counting on this\none from the very beginning!\n"
@@ -480,16 +473,14 @@ _0388: // Trainer 418
     trainertextentry 418, TEXT_DEFEATED_IN_BATTLE, "Why?!\n...How could we lose?\n"
 
 _0394: // Trainer 246
-    trainertextentry 246, TEXT_LAST_MON_SENT_OUT, "The last track,\rit may be loud,\r but it’s bound\n to cause some sort of damage!\n"
-    trainertextentry 246, TEXT_LAST_MON_CRITICAL, "Somebody add autotune\n to this pain!\n"
-    trainertextentry 246, TEXT_DEFEATED_IN_BATTLE, "Well...\ryou got any music recommendations,\r specifically ones that I\n could cry to...\ralone?\n"
-    trainertextentry 246, TEXT_PLAYER_LOSES, "Looks like your team hit static.\n Happens to the best of us\r...and also to you.\n"
+    trainertextentry 246, TEXT_LAST_MON_SENT_OUT, "This is far from being backed into\na corner!\n"
+    trainertextentry 246, TEXT_LAST_MON_CRITICAL, "You’re no ordinary Trainer to have\ngotten this far.\n"
+    trainertextentry 246, TEXT_DEFEATED_IN_BATTLE, "Well, aren’t you good.\nI like that in a Trainer.\n"
 
 _03A0: // Trainer 244
-    trainertextentry 244, TEXT_LAST_MON_SENT_OUT, "Time to commit Battery!\nKick his ass until \nhe gets scoliosis again!\n"
-    trainertextentry 244, TEXT_LAST_MON_CRITICAL, "Kick him in the Dick!\nKick him in the Dick!\n"
-    trainertextentry 244, TEXT_DEFEATED_IN_BATTLE, "Damn,\r it would seem that today,\r it’s my chaps that are assless...\n"
-    trainertextentry 244, TEXT_PLAYER_LOSES, "You would have won if you had a Cajon...\n"
+    trainertextentry 244, TEXT_LAST_MON_SENT_OUT, "All right!\nI thought this would never happen!\n"
+    trainertextentry 244, TEXT_LAST_MON_CRITICAL, "I never give up, no matter what.\nYou must be the same?\n"
+    trainertextentry 244, TEXT_DEFEATED_IN_BATTLE, "...It’s over.\rBut it’s an odd feeling. I’m not angry\nthat I lost. In fact, I feel happy.\rHappy that I witnessed the rise\nof a great new Champion!\n"
 
 _03AC: // Trainer 702
     trainertextentry 702, TEXT_LAST_MON_SENT_OUT, "We Psychics don’t give up even when\nwe’re down to the last Pokémon.\rThat’s what makes us so formidable!\n"
@@ -1920,10 +1911,9 @@ _1140: // Trainer 200
     trainertextentry 200, TEXT_DEFEATED_IN_BATTLE, "Oh, no! They’re so useless!\n"
 
 _1144: // Trainer 487
-    trainertextentry 487, TEXT_LAST_MON_SENT_OUT, "I shouldn’t have drank chamomile tea before this!\n"
-    trainertextentry 487, TEXT_LAST_MON_CRITICAL, "No!\r It’s not time to\n go back to sleep yet!\n"
-    trainertextentry 487, TEXT_DEFEATED_IN_BATTLE, "This is what I get\n for trying to be a morning person...\n"
-    trainertextentry 487, TEXT_PLAYER_LOSES, "Those melatonin gummies\n are really paying off!\n"
+    trainertextentry 487, TEXT_LAST_MON_SENT_OUT, "What? Am I losing?\n"
+    trainertextentry 487, TEXT_LAST_MON_CRITICAL, "Hey, wait, are you serious?!\n"
+    trainertextentry 487, TEXT_DEFEATED_IN_BATTLE, "OK, OK. I’ll tell you where he is.\n"
 
 _1150: // Trainer 478
     trainertextentry 478, TEXT_NOTICE_IN_OVERWORLD, "Ariana: Hey, you...\nRemember me from the hideout in\fMahogany Town?\rThis time...\rHee hee hee. This time...it looks like\nyou’re really all alone. All alone...\rSo it should be quite easy.\nBring it! Let’s finish this!\r\n"
@@ -2109,10 +2099,9 @@ _1300: // Trainer 499
     trainertextentry 499, TEXT_DEFEATED_IN_BATTLE, "...\n"
 
 _1304: // Trainer 488
-    trainertextentry 488, TEXT_LAST_MON_SENT_OUT, "Uh oh!\n My alarm is going off!\n"
-    trainertextentry 488, TEXT_LAST_MON_CRITICAL, "Just hang on a little longer!\r It’s almost nap time!\n"
-    trainertextentry 488, TEXT_DEFEATED_IN_BATTLE, "I dozed off...\rDid I win?\n"
-    trainertextentry 488, TEXT_PLAYER_LOSES, "I can’t believe you\n woke me up for this...\n"
+    trainertextentry 488, TEXT_LAST_MON_SENT_OUT, "Hey, you’re good!\n"
+    trainertextentry 488, TEXT_LAST_MON_CRITICAL, "Wow, strong!\n"
+    trainertextentry 488, TEXT_DEFEATED_IN_BATTLE, "I...I couldn’t do a thing...\nGiovanni, please forgive me...\n"
 
 _1310: // Trainer 468
     trainertextentry 468, TEXT_NOTICE_IN_OVERWORLD, "I used to work for Silph, but now I run\nresearch for Team Rocket.\rA meddlesome child like you needs to be\npunished.\r"
@@ -3130,7 +3119,7 @@ _1AD0: // Trainer 630
 /* Trainer  16 */ .halfword _0C74
 /* Trainer  17 */ .halfword _0E08
 /* Trainer  18 */ .halfword _0A64
-/* Trainer  19 */ .halfword _000A
+/* Trainer  19 */ .halfword _0000
 /* Trainer  20 */ .halfword _014C
 /* Trainer  21 */ .halfword _0158
 /* Trainer  22 */ .halfword _0268
