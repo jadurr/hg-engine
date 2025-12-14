@@ -1676,30 +1676,6 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1795, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_CROWN
     { .tag = 1796, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
     { .tag = 1797, .gfx = 1547, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT
-
-    NEW_NPC_ENTRY(0), // Kate 1553
-    NEW_NPC_ENTRY(1), // Gabriella 1554
-    NEW_NPC_ENTRY(2), // Austin 1555
-    NEW_NPC_ENTRY(3), // Abby 1556
-    NEW_NPC_ENTRY(4), // Clay 1557
-    NEW_NPC_ENTRY(5), // Victor 1558
-    NEW_NPC_ENTRY(6), // Shanna 1559
-    NEW_NPC_ENTRY(7), // Aidan 1560
-    NEW_NPC_ENTRY(8), // Brennan 1561
-    NEW_NPC_ENTRY(9), // Andrew 1562
-    NEW_NPC_ENTRY(10), // Sonja 1563
-    NEW_NPC_ENTRY(11), // Kevin 1564
-    NEW_NPC_ENTRY(12), // John 1565
-    NEW_NPC_ENTRY(13), // Laura 1566
-    NEW_NPC_ENTRY(14), // Cole 1567
-    NEW_NPC_ENTRY(15), // Bruce 1568
-    NEW_NPC_ENTRY(16), // Zak 1569
-    NEW_NPC_ENTRY(17), // Justin 1570
-    NEW_NPC_ENTRY(18), // Daniel 1571
-    NEW_NPC_ENTRY(19), // Isaac 1572
-    NEW_NPC_ENTRY(20), // Samer 1573
-    NEW_NPC_ENTRY(21), // Julian 1574
-
     { 0xFFFF, 0, 0},
 };
 
