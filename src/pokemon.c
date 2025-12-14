@@ -607,12 +607,10 @@ BOOL SetBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, void 
 u32 GetBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, void *data UNUSED, BOOL *retBool)
 {
     u32 ret = 0;
-
     PokemonDataBlockA *blockA = blocks->blockA;
     PokemonDataBlockB *blockB UNUSED = blocks->blockB;
     PokemonDataBlockC *blockC UNUSED = blocks->blockC;
     PokemonDataBlockD *blockD = blocks->blockD;
-
     *retBool = FALSE;
     switch (field)
     {
@@ -652,56 +650,6 @@ u32 GetBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, void *
 #ifdef DEBUG_BOXMONDATA_EDITED_CASES
     //debug_printf("Modified GetBoxMonData called...\n    blocks %08X,\n    field %d,\n    data %08X,\n    retBool %08X\n", blocks, field, data, retBool);
 #endif
-    return ret;
-}
-
-/**
- *  @brief edited fields in AddBoxMonData.  can add new fields here and edit existing ones
- *
- *  @param blocks unencrypted data blocks from BoxPokemon structure
- *  @param field MON_DATA_* constant to retrieve
- *  @param data value to return data in (if necessary as a structure)
- *  @return signal to the hook that it shouldn't return to vanilla handling
- */
-BOOL AddBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, int data)
-{
-#ifdef DEBUG_BOXMONDATA_EDITED_CASES
-    debug_printf("Modified AddBoxMonData called... field=%d data=%d\n", field, data);
-#endif
-    BOOL ret = FALSE;
-
-    PokemonDataBlockA *blockA = blocks->blockA;
-    PokemonDataBlockB *blockB UNUSED = blocks->blockB;
-    PokemonDataBlockC *blockC UNUSED = blocks->blockC;
-    PokemonDataBlockD *blockD UNUSED = blocks->blockD;
-
-    switch (field) {
-    case MON_DATA_EXPERIENCE: {
-        u32 experience = (u32)data;
-        if (blockA->exp + experience > PokeLevelExpGet(blockA->species, 100)) {
-            blockA->exp = PokeLevelExpGet(blockA->species, 100);
-        } else {
-            blockA->exp += experience;
-        }
-        ret = TRUE;
-#ifdef DEBUG_BOXMONDATA_EDITED_CASES
-        debug_printf("[AddBoxMonData] Experience to add %d, new experience %d\n", experience, blockA->exp);
-#endif
-        break;
-    }
-
-    case MON_DATA_ABILITY: {
-        u16 ability = (u16)data;
-        blockA->ability     = ability & 0xFF;
-        blockA->abilityMSB  = (ability >> 8) & 0x01;
-        ret = TRUE;
-#ifdef DEBUG_BOXMONDATA_EDITED_CASES
-        debug_printf("[AddBoxMonData] Ability to set %d, LSB %d, MSb %d\n", ability, blockA->ability, blockA->abilityMSB);
-#endif
-        break;
-    }
-    }
-
     return ret;
 }
 
@@ -2505,6 +2453,29 @@ const u8 sTrainerGenders[] = {
     [TRAINERCLASS_PKMN_TRAINER_LUCAS_DP] = TRAINER_MALE,
     [TRAINERCLASS_PKMN_TRAINER_DAWN_DP] = TRAINER_FEMALE,
     [TRAINERCLASS_PKMN_TRAINER_LUCAS_PT] = TRAINER_MALE,
+    [TRAINERCLASS_WITCH] = TRAINER_FEMALE,
+    [TRAINERCLASS_DA_GUITARIST] = TRAINER_MALE,
+    [TRAINERCLASS_SOUNDWAVE_ENGINEER] = TRAINER_MALE,
+    [TRAINERCLASS_SLEEPYGUY] = TRAINER_MALE,
+    [TRAINERCLASS_ORION] = TRAINER_MALE,
+    [TRAINERCLASS_KATE] = TRAINER_FEMALE,
+    [TRAINERCLASS_GABRIELLA] = TRAINER_FEMALE,
+    [TRAINERCLASS_AUSTIN] = TRAINER_MALE,
+    [TRAINERCLASS_ABBY] = TRAINER_FEMALE,
+    [TRAINERCLASS_CLAY] = TRAINER_MALE,
+    [TRAINERCLASS_VICTOR] = TRAINER_MALE,
+    [TRAINERCLASS_BRENNAN] = TRAINER_MALE,
+    [TRAINERCLASS_ANDREW] = TRAINER_MALE,
+    [TRAINERCLASS_SONJA] = TRAINER_FEMALE,
+    [TRAINERCLASS_JULIAN] = TRAINER_MALE,
+    [TRAINERCLASS_PKMN_TRAINER_JULIAN] = TRAINER_MALE,
+    [TRAINERCLASS_LAURA] = TRAINER_FEMALE,
+    [TRAINERCLASS_BRUCE] = TRAINER_MALE,
+    [TRAINERCLASS_ZAK] = TRAINER_MALE,
+    [TRAINERCLASS_JUSTIN] = TRAINER_MALE,
+    [TRAINERCLASS_DANIEL] = TRAINER_MALE,
+    [TRAINERCLASS_ISAAC] = TRAINER_MALE,
+    [TRAINERCLASS_SAMER] = TRAINER_MALE,
     [TRAINERCLASS_PKMN_TRAINER_DAWN_PT] = TRAINER_FEMALE,
 };
 
