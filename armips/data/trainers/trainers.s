@@ -4225,7 +4225,7 @@ trainerdata 85, "Paula"
     endparty
 
 trainerdata 86, "Randall"
-    trainermontype TRAINER_DATA_TYPE_MOVES |TRAINER_DATA_TYPE_ABILITY
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
     item ITEM_NONE
