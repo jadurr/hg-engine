@@ -1076,7 +1076,7 @@ trainerdata 20, "Zak Scott"
 		move MOVE_FIRE_PUNCH
 		ability ABILITY_THICK_FAT
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 252, 4, 0, 0, 252
+		setevs 0, 252, 4, 0, 0, 36
 		nature NATURE_ADAMANT
         ballseal 0
 
@@ -1712,48 +1712,48 @@ trainerdata 31, "Isaac Samuels"
 		ivs 255
 		abilityslot 0
 		level 24
-		pokemon SPECIES_UNOWN
-		item ITEM_CHOICE_SPECS
-		move MOVE_HIDDEN_POWER
-		move MOVE_NONE
-		move MOVE_NONE
-		move MOVE_NONE
-		ability ABILITY_LEVITATE
+		pokemon SPECIES_KYOGRE
+		item ITEM_HEAVY_DUTY_BOOTS
+		move MOVE_CALM_MIND
+		move MOVE_ORIGIN_PULSE
+		move MOVE_ICE_BEAM
+		move MOVE_THUNDER
+		ability ABILITY_DRIZZLE
 		setivs 30, 31, 31, 30, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 0, 0, 252, 252, 0
-		nature NATURE_MODEST
+		setevs 248, 0, 164, 16, 80, 0
+		nature NATURE_BOLD
 		ballseal 0
 
         // mon 4
 		ivs 255
 		abilityslot 0
 		level 30
-		monwithform SPECIES_PIKACHU, 14
-        item ITEM_LIGHT_BALL
-		move MOVE_EXTREME_SPEED
-		move MOVE_VOLT_SWITCH
-		move MOVE_KNOCK_OFF
-		move MOVE_GRASS_KNOT
-		ability ABILITY_STATIC
+		pokemon SPECIES_GIBLE
+        item ITEM_EVIOLITE
+		move MOVE_SWORDS_DANCE
+		move MOVE_SCALE_SHOT
+		move MOVE_EARTHQUAKE
+		move MOVE_ENDURE
+		ability ABILITY_ROUGH_SKIN
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 252, 0, 188, 68, 0
-		nature NATURE_LONELY
+		setevs 52, 196, 76, 180, 0, 0
+		nature NATURE_JOLLY
 		ballseal 0
 
         // mon 5
 		ivs 255
 		abilityslot 0
 		level 27
-		pokemon SPECIES_BELLSPROUT
-		item ITEM_LIFE_ORB
-		move MOVE_SOLAR_BEAM
-		move MOVE_SLUDGE_BOMB
-		move MOVE_WEATHER_BALL
-		move MOVE_SLEEP_POWDER
-		ability ABILITY_CHLOROPHYLL
+		pokemon SPECIES_SLAKOTH
+		item ITEM ITEM_CHOICE_BAND
+		move MOVE_RETURN
+		move MOVE_PURSUIT
+		move MOVE_ICE_PUNCH
+		move MOVE_FIRE_PUNCH
+		ability ABILITY_TRUANT
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 0, 76, 196, 196, 36
-		nature NATURE_MODEST
+		setevs 196, 196, 36, 0, 0, 76
+		nature NATURE_ADAMANT
 		ballseal 0
     endparty
 
@@ -11162,48 +11162,48 @@ trainerdata 254, "Isaac Samuels"
 		ivs 255
 		abilityslot 0
 		level 64
-		pokemon SPECIES_UNOWN
-		item ITEM_CHOICE_SPECS
-		move MOVE_HIDDEN_POWER
-		move MOVE_NONE
-		move MOVE_NONE
-		move MOVE_NONE
-		ability ABILITY_LEVITATE
+		pokemon SPECIES_KYOGRE
+		item ITEM_BLUE_ORB
+		move MOVE_ORIGIN_PULSE
+		move MOVE_ICE_BEAM
+		move MOVE_THUNDER
+		move MOVE_CALM_MIND
+		ability ABILITY_DRIZZLE
 		setivs 30, 31, 31, 30, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 0, 0, 252, 252, 4
-		nature NATURE_TIMID
+		setevs 0, 0, 4, 252, 252, 0
+		nature NATURE_MODEST
 		ballseal 0
 
 		// mon 4
 		ivs 255
 		abilityslot 0
 		level 65
-		monwithform SPECIES_RAICHU, 1
-		item ITEM_HEAVY_DUTY_BOOTS
-		move MOVE_NASTY_PLOT
-		move MOVE_PSYSHOCK
-		move MOVE_10_000_000_VOLT_THUNDERBOLT
-		move MOVE_VOLT_SWITCH
-		ability ABILITY_SURGE_SURFER
+		pokemon SPECIES_GARCHOMP
+		item ITEM_LOADED_DICE
+		move MOVE_SWORDS_DANCE
+		move MOVE_SCALE_SHOT
+		move MOVE_EARTHQUAKE
+		move MOVE_DRAGON_TAIL
+		ability ABILITY_TRUANT
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 0, 0, 252, 252, 4
-		nature NATURE_TIMID
+		setevs 0, 252, 0, 252, 4, 0
+		nature NATURE_NAIVE
 		ballseal 0
 
 		// mon 5
 		ivs 255
 		abilityslot 0
 		level 64
-		pokemon SPECIES_VICTREEBEL
+		pokemon SPECIES_SLAKING
 		item ITEM_LIFE_ORB
-		move MOVE_GROWTH
-		move MOVE_SOLAR_BEAM
-		move MOVE_SLUDGE_BOMB
-		move MOVE_WEATHER_BALL
-		ability ABILITY_CHLOROPHYLL
+		move MOVE_RETURN
+		move MOVE_PURSUIT
+		move MOVE_EARTHQUAKE
+		move MOVE_FIRE_BLAST
+		ability ABILITY_TRUANT
 		setivs 31, 31, 31, 31, 31, 31 //hp, atk, def, spe, spatk, spdef
-		setevs 0, 0, 0, 252, 252, 4
-		nature NATURE_MODEST
+		setevs 0, 252, 0, 252, 4, 0
+		nature NATURE_NAIVE
 		ballseal 0
     endparty
 
