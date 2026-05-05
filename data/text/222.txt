@@ -2556,5 +2556,5 @@ Meteorite
 Scarlet Book
 Violet Book
 Briar’s Book
-Infinite Rare Candy
+Infinite Candy
 Infinite Repel
