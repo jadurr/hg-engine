@@ -1745,7 +1745,7 @@ trainerdata 31, "Isaac Samuels"
 		abilityslot 0
 		level 27
 		pokemon SPECIES_SLAKOTH
-		item ITEM ITEM_CHOICE_BAND
+		item ITEM_CHOICE_BAND
 		move MOVE_RETURN
 		move MOVE_PURSUIT
 		move MOVE_ICE_PUNCH
