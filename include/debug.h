@@ -36,7 +36,7 @@
 //#define GUARANTEE_CAPTURES
 
 // Uncomment this when you want to enable all gimmicks while testing
-// #define DEBUG_ENABLE_ALL_GIMMICKS
+//#define DEBUG_ENABLE_ALL_GIMMICKS
 
 // DEBUG_SQRT prints debug information for the gpio sqrt function
 //#define DEBUG_SQRT
@@ -103,6 +103,9 @@
 // See src/test_battle.c for scenario definitions
 // recommend turning on DEBUG_AUTO_CONTINUE_GAME for test roms
 //#define DEBUG_BATTLE_SCENARIOS
+
+// automatically queue up script 73 from the common script file on rom start
+//#define DEBUG_AUTO_QUEUE_SCRIPT
 
 // DEBUG_AUTO_CONTINUE_GAME skips the title screen and start menu to automatically continue the game
 // when enabled, skips the intro movie and title screen to immediately continue the loaded save
