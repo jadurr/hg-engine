@@ -8,18 +8,22 @@
 #define OVERWORLD_SIZE_SMALL_NO_SHADOW 0x4E26
 #define OVERWORLD_SIZE_LARGE           0x5208
 
+#define NEW_NPC_START 7000
+#define NEW_NPC_GFX_START 1553 // exact number may depend--it is the number of the first overworld gfx that is not used in the overworld table
+#define NEW_NPC_ENTRY(num) {.tag = NEW_NPC_START + num, .gfx = NEW_NPC_GFX_START + num, .callback_params = 0}
+
 /*
  *  if you would like to add new npc overworlds, go to
  *  https://ds-pokemon-hacking.github.io/docs/generation-iv/guides/hgss-new_overworlds/
  */
 
 // this should stay the same
-#define NEW_NPC_GFX_START (297)
+/*#define NEW_NPC_GFX_START (297)
 #define NEW_NPC_TAG_START (7000)
 
 #define NEW_NPC_ENTRY(num) \
     { .tag = NEW_NPC_TAG_START + num, .gfx = NEW_NPC_GFX_START + num, .callback_params = 0 },
-
+*/
 // adjust this depending on the amount of new npc's that you have added
 #define MON_OVERWORLD_GFX_START (297)
 
@@ -366,29 +370,6 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
         { .tag = 1047, .gfx = MON_OVERWORLD_GFX_START + SPECIES_MEGANIUM, .callback_params = OVERWORLD_SIZE_SMALL },
         { .tag = 1048, .gfx = MON_OVERWORLD_GFX_START + SPECIES_TYPHLOSION, .callback_params = OVERWORLD_SIZE_SMALL },
         { .tag = 1049, .gfx = MON_OVERWORLD_GFX_START + SPECIES_FERALIGATR, .callback_params = OVERWORLD_SIZE_SMALL },
-        
-        NEW_NPC_ENTRY(0), // Kate 1553
-        NEW_NPC_ENTRY(1), // Gabriella 1554
-        NEW_NPC_ENTRY(2), // Austin 1555
-        NEW_NPC_ENTRY(3), // Abby 1556
-        NEW_NPC_ENTRY(4), // Clay 1557
-        NEW_NPC_ENTRY(5), // Victor 1558
-        NEW_NPC_ENTRY(6), // Shanna 1559
-        NEW_NPC_ENTRY(7), // Aidan 1560
-        NEW_NPC_ENTRY(8), // Brennan 1561
-        NEW_NPC_ENTRY(9), // Andrew 1562
-        NEW_NPC_ENTRY(10), // Sonja 1563
-        NEW_NPC_ENTRY(11), // Kevin 1564
-        NEW_NPC_ENTRY(12), // John 1565
-        NEW_NPC_ENTRY(13), // Laura 1566
-        NEW_NPC_ENTRY(14), // Cole 1567
-        NEW_NPC_ENTRY(15), // Bruce 1568
-        NEW_NPC_ENTRY(16), // Zak 1569
-        NEW_NPC_ENTRY(17), // Justin 1570
-        NEW_NPC_ENTRY(18), // Daniel 1571
-        NEW_NPC_ENTRY(19), // Isaac 1572
-        NEW_NPC_ENTRY(20), // Samer 1573
-        NEW_NPC_ENTRY(21), // Julian 1574
 
         // pokémon follower specific overworlds start here... left off on gfx 1451 - galarian stunfisk which was inserted after all the others
 
@@ -1713,6 +1694,29 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
         MON_FOLLOWER_ENTRY(SPECIES_IRON_CROWN, OVERWORLD_SIZE_SMALL)
         MON_FOLLOWER_ENTRY(SPECIES_TERAPAGOS, OVERWORLD_SIZE_SMALL)
         MON_FOLLOWER_ENTRY(SPECIES_PECHARUNT, OVERWORLD_SIZE_SMALL)
+
+        NEW_NPC_ENTRY(0), // Kate 1553
+        NEW_NPC_ENTRY(1), // Gabriella 1554
+        NEW_NPC_ENTRY(2), // Austin 1555
+        NEW_NPC_ENTRY(3), // Abby 1556
+        NEW_NPC_ENTRY(4), // Clay 1557
+        NEW_NPC_ENTRY(5), // Victor 1558
+        NEW_NPC_ENTRY(6), // Shanna 1559
+        NEW_NPC_ENTRY(7), // Aidan 1560
+        NEW_NPC_ENTRY(8), // Brennan 1561
+        NEW_NPC_ENTRY(9), // Andrew 1562
+        NEW_NPC_ENTRY(10), // Sonja 1563
+        NEW_NPC_ENTRY(11), // Kevin 1564
+        NEW_NPC_ENTRY(12), // John 1565
+        NEW_NPC_ENTRY(13), // Laura 1566
+        NEW_NPC_ENTRY(14), // Cole 1567
+        NEW_NPC_ENTRY(15), // Bruce 1568
+        NEW_NPC_ENTRY(16), // Zak 1569
+        NEW_NPC_ENTRY(17), // Justin 1570
+        NEW_NPC_ENTRY(18), // Daniel 1571
+        NEW_NPC_ENTRY(19), // Isaac 1572
+        NEW_NPC_ENTRY(20), // Samer 1573
+        NEW_NPC_ENTRY(21), // Julian 1574
 
         { 0xFFFF, 0, 0 },
     };
